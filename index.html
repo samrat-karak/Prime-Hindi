@@ -54,8 +54,10 @@
       background-color: rgba(74, 74, 68, 0.47);
     }
 
-    .jwplayer {
-      position: absolute !important
+    #jwplayer {
+      /* position: absolute !important; */
+      width: 100vw;
+      height: calc(100% - 200px);
     }
 
     .jwplayer.jw-flag-aspect-mode {
@@ -63,7 +65,7 @@
       max-height: 100% +-
     }
 
-    jwplayer.setup({
+    jwplayer.setup{
       "logo": {
         "file": "",
         "link": "upi://pay?pa=paytmqr2810050501017a5kucusnbmu@paytm&pn=Paytm%20Merchant&paytmqr=2810050501017A5KUCUSNBMU",
